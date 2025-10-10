@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HONG KONG | Home</title>
+
+<!-- STYLES -->
+    <link rel="stylesheet" href="styles/normalize-fwd.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+
+<!-- FAVICON -->
+    <link rel="icon" href="favicon.ico" sizes="any"> 
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="manifest" href="site.webmanifest" />
+</head>
+
+<body>
+    <header class="navigation-bar">
+        
+        <img src="https://placehold.co/50x50" alt="timelapse of hong kong at night">
+
+        <nav class="menu">
+            <button id="menu-button">Menu</button>
+            <ul id="menu-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="cuisine.html">Cuisine</a></li>
+                <li><a href="attraction.html">Attractions</a></li>
+                <li><a href="travel.html">Travel</a></li>
+                <li><a href="credit.html">Credits</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <section class="banner">
+            <img src="https://placehold.co/1920x1080" alt="timelapse of hong kong at night">
+        </section>
+
+        <div class="home-grid">
+            <section class="about">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque perferendis qui et deleniti voluptas, ea eos accusamus sint necessitatibus sunt nobis magni veritatis quis deserunt ipsa autem? Consectetur illo alias, quis neque libero veritatis a deserunt corrupti numquam incidunt asperiores optio minus! Nulla provident et assumenda quas natus itaque.
+            </section>
+
+            <section class="contact">
+                <fieldset>
+                    <legend>contact us</legend>
+
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="your name..." required>
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="example@mail.com..." required>
+
+                    <label for="choice">What do you want to learn more of?</label>
+                    <select id="choice" name="choice">
+                        <option value="select">Select</option>
+                        <option value="cuisine">Cuisine</option>
+                        <option value="attractions">Attractions</option>
+                        <option value="travel">Travel</option>
+                    </select>
+
+                    <label for="inquiry">Please expand on your inquiry.</label>
+                    <textarea name="inquiry" id="inquiry" placeholder="Comment here..." required></textarea>
+
+                    <input type="submit" value="submit">
+            </fieldset>
+            </section>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <p>&copy; Nana Tan</p>
+    </footer>
+
+<!-- SCRIPTS -->
+    <script src="scripts/menu.js"></script>
+</body>
+
+</html>

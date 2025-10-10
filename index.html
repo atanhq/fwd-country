@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 <!-- FAVICON -->
     <link rel="icon" href="favicon.ico" sizes="any"> 
@@ -20,7 +21,7 @@
 <body>
     <header class="navigation-bar">
         
-        <img src="https://placehold.co/50x50" alt="timelapse of hong kong at night">
+        <a href="#"><img src="https://placehold.co/50x50" alt="logo"></a>
 
         <nav class="menu">
             <button id="menu-button">Menu</button>
@@ -39,12 +40,19 @@
     <main>
 
         <section class="banner">
-            <img src="https://placehold.co/1920x1080" alt="timelapse of hong kong at night">
+            <h1>Hong Kong</h1>
+
+            <video autoplay loop>
+				<source src="media/flyover.mp4" type="video/mp4">
+				Your browser does not support the video element.
+			</video>
+
+            <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
         </section>
 
         <div class="home-grid">
-            <section class="about">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corrupti eaque perferendis qui et deleniti voluptas, ea eos accusamus sint necessitatibus sunt nobis magni veritatis quis deserunt ipsa autem? Consectetur illo alias, quis neque libero veritatis a deserunt corrupti numquam incidunt asperiores optio minus! Nulla provident et assumenda quas natus itaque.
+            <section id="about" class="about">
+                Hong Kong is known for its iconic skyline, bustling street markets, and rich Cantonese cuisine like dim sum. Top attractions include Victoria Peak, Star Ferry, and Temple Street Night Market. It's famous for blending Eastern and Western cultures, vibrant nightlife, and being a global finance and shopping hub.
             </section>
 
             <section class="contact">

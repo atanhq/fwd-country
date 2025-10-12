@@ -21,6 +21,13 @@ h6 {
     color: #fff;
 }
 
+span {
+    font-weight: 700;
+    background-color: #1a1a1a;
+    padding: 0.2rem 0.5rem;
+    text-transform: uppercase;
+}
+
 a,
 a:visited {
     color: maroon;
@@ -74,6 +81,34 @@ a:focus {
 
 .menu li {
     display: block;
+}
+
+
+/* ----- BANNER ----- */
+.banner {
+    position: relative;
+    top: 0;
+}
+
+.banner h1 {
+    position: absolute;
+    margin: 0;
+    left: 0;
+	right: 0;
+    text-align: center;
+    font-size: 5rem;
+    line-height: 4rem;
+	z-index: 1;
+    text-transform: uppercase;
+    text-shadow: 0px 0px 10px #fff;
+}
+
+.banner h1:after {
+    display: block;
+    font-size: 3rem;
+    padding-top: 1rem;
+    text-align: center;
+    text-shadow: 0px 0px 10px #fff;
 }
 
 /* ----- FOOTER ----- */

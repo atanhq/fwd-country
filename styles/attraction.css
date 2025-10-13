@@ -1,0 +1,23 @@
+.banner h1 {
+    top: 20%;
+    font-size: 2.5rem;
+}
+
+.attractions {
+    padding: 2rem;
+
+}
+
+.attractions img {
+    display: block;
+    margin: 0 auto;
+    background-color: grey;
+    padding: 1rem;
+}
+
+.attractions p {
+    margin: 0 auto 5rem auto;
+    padding: 2rem 1rem;
+    background-color: maroon;
+    width: 17.625rem;
+}

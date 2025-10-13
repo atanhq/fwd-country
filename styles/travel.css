@@ -1,0 +1,48 @@
+.banner h1 {
+    top: 20%;
+    font-size: 3rem;
+}
+
+.travel-grid {
+    margin-top: 2rem;
+    padding: 0 2rem;
+}
+
+.travel {
+    text-align: justify;
+    text-align-last: center;
+    font-size: 0.95rem;
+	margin: auto;
+	max-width: 90%;
+    margin-bottom: 2rem;
+}
+
+.ticket {
+    margin: 0 auto;
+    max-width: 90%;
+    background-color: maroon;
+    padding: 2rem 2rem 1rem;
+    margin-bottom: 2rem;
+}
+
+.ticket summary {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-left: 0.5rem;
+}
+
+.ticket details {
+    padding-bottom: 1.5rem;
+}
+
+.ticket p {
+    background-color: #1a1a1a;
+    padding: 1rem;
+}
+
+.map {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+    text-align: center;
+}

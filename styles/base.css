@@ -47,40 +47,64 @@ a:focus {
 
 /* ----- NAVIGATION MENU ----- */
 .navigation-bar {
-    position: fixed;
+    position: relative;
     top: 0;
-    height: 3.125rem;
     width: 100%;
     display: flex;
     justify-content: space-between;
     z-index: 999;
+    height: 5rem;
 }
 
-.menu {
-    text-align: right;
+.logo {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+}
+
+button {
+    position: absolute;
+    top: 1.25rem;
+    right: 1rem;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    text-shadow: 0px 0px 10px #fff;
 }
 
 #menu-list {
-    background-color: #1a1a1a;
-    font-size: 1rem;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #eee;
-    /* width: 100vw; */
     height: 0;
     overflow: hidden;
     transition: height .5s ease;
+    width: 100vw;
 }
 
 #menu-list.toggled {
-    height: 50vh;
+    height: 100vh;
+    opacity: 0.9;
 }
 
 .menu ul {
     padding: 0;
+    margin-top: 5rem;
+    background-color: #1a1a1a;
+    text-align: center;
+    width: 100%;
 }
 
 .menu li {
     display: block;
+    padding: 1rem;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    letter-spacing: 3px;
 }
 
 
@@ -106,6 +130,8 @@ a:focus {
     display: block;
     text-align: center;
     text-shadow: 0px 0px 10px #fff;
+    content: "香港";
+    font-size: 3rem;
 }
 
 /* ----- FOOTER ----- */

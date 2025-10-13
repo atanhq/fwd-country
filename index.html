@@ -53,17 +53,19 @@
 
         <div class="home-grid">
             <section id="about" class="about">
-                <!-- Hong Kong is known for its iconic skyline, bustling street markets, and rich Cantonese cuisine like dim sum. Top attractions include Victoria Peak, Star Ferry, and Temple Street Night Market. It's famous for blending Eastern and Western cultures, vibrant nightlife, and being a global finance and shopping hub. -->
+                <blockquote>
+                    <div class="div-quote">
+                        <span><i class="fa-solid fa-quote-left"></i></span>
+                    </div>
 
-                <blockquote cite="https://www.peterjonlindberg.com/hong-kong-modern">
-                    <p>"Life in <span>Hong Kong</span> transcends cultural and culinary borders, such that nothing is truly foreign and nothing doesn't belong."</p>
-                    <p>- Peter Jon Lindberg, <cite>Travel + Leisure, October 2013</cite></p>
+                    <p>Life in <span>Hong Kong</span> transcends cultural and culinary borders, such that nothing is truly foreign and nothing doesn't belong.</p>
                 </blockquote>
+                <cite>— Peter Jon Lindberg, Travel + Leisure</cite>
             </section>
 
             <section class="contact">
                 <fieldset>
-                    <legend>contact us</legend>
+                    <span><legend>contact us</legend></span>
 
                     <label for="name">Name</label>
                     <input type="text" name="name" id="name" placeholder="your name..." required>
@@ -71,19 +73,20 @@
                     <label for="email">Email</label>
                     <input type="email" name="email" id="email" placeholder="example@mail.com..." required>
 
-                    <label for="choice">What do you want to learn more of?</label>
+                    <label for="choice">What are you inquiring about?</label>
                     <select id="choice" name="choice">
                         <option value="select">Select</option>
                         <option value="cuisine">Cuisine</option>
                         <option value="attractions">Attractions</option>
                         <option value="travel">Travel</option>
+                        <option value="travel">Other</option>
                     </select>
 
-                    <label for="inquiry">Please expand on your inquiry.</label>
-                    <textarea name="inquiry" id="inquiry" placeholder="Comment here..." required></textarea>
+                    <label for="inquiry">Additional comments</label>
+                    <textarea name="inquiry" id="inquiry" placeholder="Please elaborate on your inquiry..." required></textarea>
 
-                    <input type="submit" value="submit">
-            </fieldset>
+                    <input type="submit" value="Submit">
+                </fieldset>
             </section>
         </div>
 

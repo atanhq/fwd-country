@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
     <title>Document</title>
 
 <!-- STYLES -->
@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/credit.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="scripts/menu.js" defer></script>
 
 <!-- FAVICON -->
     <link rel="icon" href="favicon.ico" sizes="any"> 
@@ -20,11 +21,12 @@
 
 <body>
     <header class="navigation-bar">
-        
-        <a href="#"><img src="https://placehold.co/50x50" alt="logo"></a>
+        <section class="logo">
+            <a href="#"><img src="https://placehold.co/50x50" alt="logo"></a>
+        </section>
 
         <nav class="menu">
-            <button id="menu-button">Menu</button>
+            <button id="menu-button"><i class="fa-solid fa-bars"></i></button>
             <ul id="menu-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="cuisine.html">Cuisine</a></li>
@@ -33,7 +35,6 @@
                 <li><a href="credit.html">Credits</a></li>
             </ul>
         </nav>
-
     </header>
 
 
@@ -49,6 +50,11 @@
             <tr>
                 <th>Content</th>
                 <th>Source</th>
+            </tr>
+
+            <tr>
+                <td>Navigation menu SVG</td>
+                <td><a href="https://fontawesome.com/icons/bars?s=solid">Fontawesome</a></td>
             </tr>
 
             <tr>
@@ -78,9 +84,6 @@
     <footer>
         <p>&copy; Nana Tan</p>
     </footer>
-
-<!-- SCRIPTS -->
-    <script src="scripts/menu.js"></script>
 </body>
 
 </html>

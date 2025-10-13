@@ -12,7 +12,7 @@
 .banner video {
     width: 100%;
     height: 85vh;
-    object-fit: cover;
+    object-fit: cover; 
 }
 
 .banner a {
@@ -27,29 +27,38 @@
 }
 
 /* ----- ABOUT/CONTACT US ----- */
-.home-grid {
+/* .home-grid {
     margin-top: 2rem;
     padding: 0 2rem;
-}
+} */
 
 .about {
-    /* text-align: justify;
-    text-align-last: center; */
     font-size: 0.95rem;
 	margin: auto;
-	max-width: 80%;
+    padding: 3rem 0;
+    background-color: #252525;
+    margin-bottom: 3rem;
+}
+
+.contact {
+    margin: 0 3rem 5rem;
+    box-shadow: 0 0 30px red,
+                0 0 5px white,
+                inset 0 0 10px red;
 }
 
 fieldset {
 	margin: 5rem auto;
 	border: none;
-	max-width: 30%;
+	/* max-width: 30%; */
 	display: flex;
 	flex-direction: column;
+    padding: 0 3rem 3rem;
 }
 
 legend {
 	margin: auto;
+    padding-top: 2rem;
 	font-size: 1.75rem;
 	font-weight: 700;
 }

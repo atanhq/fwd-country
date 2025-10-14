@@ -21,17 +21,25 @@
     background-color: maroon;
     width: 17.625rem;
 } */
+.cuisine {
+    display: block;
+}
+
+.container-image {
+    display: none;
+}
 
 
+@media (min-width: 68em) {
 .cuisine {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .container {
   position: relative;
   width: 22.5rem;
-  height: 100wh;
+  height: 100vh;
 }
 
 .overlay {
@@ -45,7 +53,7 @@
 }
 
 .container:hover .overlay {
-  opacity: 1;
+  opacity: 0.9;
 }
 
 .container-image {
@@ -68,4 +76,5 @@
     padding: 2rem;
     width: 80%;
     font-size: 1.5rem;
+}
 }

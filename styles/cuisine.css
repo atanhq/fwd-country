@@ -21,12 +21,41 @@
     background-color: maroon;
     width: 17.625rem;
 } */
+
+
+.banner h1 {
+    font-size: 4rem;
+    padding-top: 1rem;
+}
+
 .cuisine {
-    display: block;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 40rem;
+    margin: 0 auto;
 }
 
 .container-image {
     display: none;
+}
+
+article {
+    background-color: #252525;
+    width: 15rem;
+}
+
+.overlay p {
+    padding: 1.5rem 2rem 2rem;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -34,12 +63,16 @@
 .cuisine {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 0;
+    flex-wrap: nowrap;
+    margin: 0;
 }
 
 .container {
   position: relative;
-  width: 22.5rem;
-  height: 100vh;
+  width: 18rem;
+  height: 75vh;
 }
 
 .overlay {
@@ -57,6 +90,7 @@
 }
 
 .container-image {
+    display: block;
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -75,6 +109,20 @@
     margin: 0 auto;
     padding: 2rem;
     width: 80%;
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
+
+.banner h1 {
+    /* writing-mode: vertical-rl; */
+    font-size: 7rem;
+    letter-spacing: 15px;
+    /* width: 6rem; */
+    /* margin: 0 auto;
+    display: block; */
+    /* top: 2rem; */
+}
+
+/* .orientation {
+    text-orientation: upright;
+}  */
 }

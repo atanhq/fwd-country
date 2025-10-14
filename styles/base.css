@@ -110,6 +110,11 @@ button {
     letter-spacing: 3px;
 }
 
+.menu a:hover {
+    opacity: 50%;
+    transition: 0.5s;
+}
+
 
 /* ----- BANNER ----- */
 .banner {

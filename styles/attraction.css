@@ -48,7 +48,7 @@ span {
 .container {
   position: relative;
   width: 45rem;
-  height: 35vh;
+  height: 38vh;
 }
 
 .overlay {
@@ -87,7 +87,7 @@ span {
     margin: 0 auto;
     padding: 2rem;
     font-size: 1rem; */
-    margin: 2rem;
+    margin: 1rem 3rem 0 0;
     position: relative;
     left: 2rem;
 }

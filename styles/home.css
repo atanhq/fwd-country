@@ -77,14 +77,11 @@ label {
 	font-weight: 700;
 }
 
-select {
-    color: #eee;
-}
-
 input,
 select,
 textarea {
     background-color: #252525;
+    color: #eee;
 }
 
 input[type="submit"] {

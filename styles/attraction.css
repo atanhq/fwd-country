@@ -1,23 +1,99 @@
 .banner h1 {
-    top: 20%;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    padding-top: 1rem;
 }
 
 .attractions {
-    padding: 2rem;
-
-}
-
-.attractions img {
-    display: block;
+    padding-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 2rem;
+    flex-wrap: wrap;
+    max-width: 40rem;
     margin: 0 auto;
-    background-color: grey;
-    padding: 1rem;
 }
 
-.attractions p {
-    margin: 0 auto 5rem auto;
-    padding: 2rem 1rem;
-    background-color: maroon;
-    width: 17.625rem;
+.container-image {
+    display: none;
+}
+
+article {
+    background-color: #252525;
+    width: 15rem;
+}
+
+.overlay p {
+    padding: 1.5rem 2rem 2rem;
+}
+
+span {
+    display: block;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+
+
+@media (min-width: 68em) {
+.attractions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    gap: 0;
+    flex-wrap: nowrap;
+    margin: 0;
+}
+
+.container {
+  position: relative;
+  width: 45rem;
+  height: 35vh;
+}
+
+.overlay {
+    background-color: #1a1a1a;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+
+.container:hover .overlay {
+  opacity: 0.9;
+}
+
+.container-image {
+    display: block;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+.overlay img {
+    display: block;
+    float: left;
+    margin-left: 3rem;
+    padding-top: 5rem;
+    width: 10rem;
+}
+
+.overlay p {
+    /* display: block;
+    margin: 0 auto;
+    padding: 2rem;
+    font-size: 1rem; */
+    margin: 2rem;
+    position: relative;
+    left: 2rem;
+}
+
+.banner h1 {
+    font-size: 7rem;
+    letter-spacing: 15px;
+}
 }

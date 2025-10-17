@@ -33,8 +33,9 @@ span {
 
 a,
 a:visited {
-    color: maroon;
+    color: #eee;
     font-weight: 700;
+    text-decoration: none;
 }
 
 a:hover,
@@ -82,13 +83,13 @@ button {
 #menu-list {
     height: 0;
     overflow: hidden;
-    transition: height .5s ease;
+    transition: height .7s ease;
     width: 100vw;
 }
 
 #menu-list.toggled {
     height: 100vh;
-    opacity: 0.92;
+    opacity: 0.95;
 }
 
 .menu ul {
@@ -105,7 +106,7 @@ button {
 }
 
 .menu a {
-    color: #fff;
+    color: #eee;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 1.5rem;

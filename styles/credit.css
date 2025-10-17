@@ -1,11 +1,20 @@
 .banner h1 {
-    top: 20%;
-    font-size: 2.5rem;
+    font-size: 4rem;
+    padding-top: 1rem;
 }
 
 .credit {
-    margin-top: 2rem;
-    padding: 2rem;
+    padding-top: 7rem;
+}
+
+.credit a {
+    color: #dddddd;
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    max-width: 30rem;
 }
 
 th {
@@ -14,9 +23,13 @@ th {
 
 table, th, td {
     border-collapse: collapse;
-    border: 1px solid #fff;
-    padding: 0.5rem;
-    box-shadow: 0px 0px 5px #fff;
+    padding: 0.5rem 1rem;
+}
+
+th, td {
+    box-shadow: 0 0 10px maroon,
+                0 0 3px #e67272,
+                inset 0 0 5px maroon;
 }
 
 footer {

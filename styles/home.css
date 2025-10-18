@@ -1,12 +1,14 @@
 /* ----- VIDEO BANNER/TITLE */
 .banner h1 {
-	top: 35%;
+	top: 30%;
     font-size: 5rem;
+    font-family: 'Orbitron', serif;
 }
 
 .banner h1::after {
     content: "香港";
     font-size: 3rem;
+    font-family: 'Ma Shan Zheng', serif;
 }
 
 .banner video {
@@ -62,7 +64,7 @@ fieldset {
 	border: none;
 	display: flex;
 	flex-direction: column;
-    padding: 0.5rem 3rem 3rem;
+    padding: .5rem 3rem 3rem;
 }
 
 legend {
@@ -73,7 +75,7 @@ legend {
 
 label {
 	display: block;
-	padding: 1rem 0 0.2rem 0;
+	padding: 1rem 0 .2rem 0;
 	font-weight: 700;
 }
 
@@ -87,7 +89,7 @@ textarea {
 input[type="submit"] {
 	margin-top: 2rem;
 	font-weight: 700;
-    padding: 0.5rem;
+    padding: .5rem;
     background-color: maroon;
     color: #fff;
     font-size: 1.5rem;
@@ -99,7 +101,7 @@ input[type="submit"] {
 
     .banner h1 {
         top: 40%;
-        font-size: 10rem;
+        font-size: 9rem;
     }
 
     .banner h1::after {

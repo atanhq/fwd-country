@@ -1,37 +1,4 @@
-.attractions {
-    display: flex;
-    justify-content: space-around;
-    gap: 2rem;
-    flex-wrap: wrap;
-    max-width: 40rem;
-    margin: 0 auto;
-}
-
-.container-image {
-    display: none;
-}
-
-.container {
-    background-color: #252525;
-    width: 15rem;
-}
-
-.overlay p {
-    padding: 0.5rem 1rem 1rem;
-}
-
-.overlay h2 {
-    padding-top: 0.75rem;
-    font-size: 1rem;
-    letter-spacing: 2px;
-}
-
 @media (min-width: 68em) {
-
-    .page-title h1 {
-        font-size: 5rem;
-        letter-spacing: 15px;
-    }
 
     .attractions {
         display: grid;
@@ -46,29 +13,6 @@
         position: relative;
         width: 50vw;
         height: 35vh;
-    }
-
-    .overlay {
-        background-color: #1a1a1a;
-        position: absolute;
-        top: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .7s;
-    }
-
-    .container:hover .overlay {
-        opacity: 0.9;
-    }
-
-    .container-image {
-        display: block;
-        object-fit: cover;
-        width: 100%;
-        height: 100%;
-        -webkit-filter: grayscale(1);
-        filter: grayscale(1);
     }
 
     .overlay img {

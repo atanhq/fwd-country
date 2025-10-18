@@ -1,10 +1,4 @@
-.banner h1 {
-    font-size: 4rem;
-    padding-top: 1rem;
-}
-
 .attractions {
-    padding-top: 7rem;
     display: flex;
     justify-content: space-around;
     gap: 2rem;
@@ -17,83 +11,81 @@
     display: none;
 }
 
-article {
+.container {
     background-color: #252525;
     width: 15rem;
 }
 
 .overlay p {
-    padding: 1.5rem 2rem 2rem;
+    padding: 0.5rem 1rem 1rem;
 }
 
-span {
-    display: block;
-    text-align: center;
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+.overlay h2 {
+    padding-top: 0.75rem;
+    font-size: 1rem;
+    letter-spacing: 2px;
 }
-
-
 
 @media (min-width: 68em) {
-.attractions {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 100%;
-    gap: 0;
-    flex-wrap: nowrap;
-    margin: 0;
-}
 
-.container {
-  position: relative;
-  width: 45rem;
-  height: 38vh;
-}
+    .attractions {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        gap: 0;
+        flex-wrap: nowrap;
+        margin: 0;
+    }
 
-.overlay {
-    background-color: #1a1a1a;
-    position: absolute;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s;
-}
+    .container {
+        position: relative;
+        width: 50vw;
+        height: 35vh;
+    }
 
-.container:hover .overlay {
-  opacity: 0.9;
-}
+    .overlay {
+        background-color: #1a1a1a;
+        position: absolute;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s;
+    }
 
-.container-image {
-    display: block;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    -webkit-filter: grayscale(1);
-    filter: grayscale(1);
-}
+    .container:hover .overlay {
+    opacity: 0.9;
+    }
 
-.overlay img {
-    display: block;
-    float: left;
-    margin-left: 3rem;
-    padding-top: 5rem;
-    width: 10rem;
-}
+    .container-image {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        -webkit-filter: grayscale(1);
+        filter: grayscale(1);
+    }
 
-.overlay p {
-    /* display: block;
-    margin: 0 auto;
-    padding: 2rem;
-    font-size: 1rem; */
-    margin: 1rem 3rem 0 0;
-    position: relative;
-    left: 2rem;
-}
+    .overlay img {
+        display: block;
+        float: left;
+        margin-left: 3rem;
+        padding-top: 5rem;
+        width: 10rem;
+    }
 
-.banner h1 {
-    font-size: 7rem;
-    letter-spacing: 15px;
-}
+    .overlay p {
+        /* display: block;
+        margin: 0 auto;
+        padding: 2rem;
+        font-size: 1rem; */
+        margin: 1rem 3rem 0 0;
+        position: relative;
+        left: 2rem;
+    }
+
+    .page-title h1 {
+        font-size: 5rem;
+        letter-spacing: 15px;
+    }
 }

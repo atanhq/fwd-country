@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HONG KONG | Home</title>
+    <title>Hong Kong | Home</title>
 
-<!-- STYLES -->
+<!-- STYLES/SCRIPTS -->
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="scripts/menu.js" defer></script>
+
+<!-- ICONS/FONTS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&family=Orbitron:wght@400..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -23,6 +25,7 @@
 </head>
 
 <body>
+    <!-- NAVIGATION BAR -->
     <header class="navigation-bar">
         <section class="logo">
             <a href="index.html"><img src="favicon/favicon-96x96.png" alt="hong kong flower"></a>
@@ -42,8 +45,8 @@
 
 
     <main>
-
-        <section class="banner">
+        <!-- VIDEO HERO -->
+        <section class="landing-hero">
             <h1>Hong Kong</h1>
 
             <video autoplay muted loop>
@@ -54,14 +57,12 @@
             <a href="#about"><i class="fa-solid fa-angles-down"></i></a>
         </section>
 
+        
         <div class="home-grid">
             <section id="about" class="about">
                 <blockquote>
-                    <div class="div-quote">
-                        <span><i class="fa-solid fa-quote-left"></i></span>
-                    </div>
-
-                    <p>Life in <span>Hong Kong</span> transcends cultural and culinary borders, such that nothing is truly foreign and nothing doesn't belong. — Peter Jon Lindberg</p>
+                    <p>“Life in <span>Hong Kong</span> transcends cultural and culinary borders, such that nothing is truly foreign and nothing doesn't belong.”<br>
+                    <cite>— Peter Jon Lindberg</cite></p>
                 </blockquote>
             </section>
 
@@ -79,9 +80,9 @@
                     <select id="choice" name="choice">
                         <option value="select">Select</option>
                         <option value="cuisine">Cuisine</option>
-                        <option value="attractions">Attractions</option>
+                        <option value="places">Places</option>
                         <option value="travel">Travel</option>
-                        <option value="travel">Other</option>
+                        <option value="other">Other</option>
                     </select>
 
                     <label for="inquiry">Additional comments</label>

@@ -28,6 +28,11 @@
 
 @media (min-width: 68em) {
 
+    .page-title h1 {
+        font-size: 5rem;
+        letter-spacing: 15px;
+    }
+
     .attractions {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -50,11 +55,11 @@
         height: 100%;
         width: 100%;
         opacity: 0;
-        transition: .5s;
+        transition: .7s;
     }
 
     .container:hover .overlay {
-    opacity: 0.9;
+        opacity: 0.9;
     }
 
     .container-image {
@@ -70,22 +75,18 @@
         display: block;
         float: left;
         margin-left: 3rem;
-        padding-top: 5rem;
+        padding-top: 3rem;
         width: 10rem;
     }
 
-    .overlay p {
-        /* display: block;
-        margin: 0 auto;
-        padding: 2rem;
-        font-size: 1rem; */
-        margin: 1rem 3rem 0 0;
-        position: relative;
-        left: 2rem;
+    .overlay h2 {
+        margin-top: 3rem;
+        font-size: 1.5rem;
     }
 
-    .page-title h1 {
-        font-size: 5rem;
-        letter-spacing: 15px;
+    .overlay p {
+        margin: 1rem 4rem 0 0;
+        position: relative;
+        left: 2rem;
     }
 }

@@ -1,38 +1,42 @@
-.banner h1 {
-    font-size: 4rem;
-    padding-top: 1rem;
-}
-
 .credit {
-    padding-top: 7rem;
-}
-
-.credit a {
-    color: #dddddd;
+    padding-top: 3rem;
 }
 
 table {
     margin: 0 auto;
     width: 80%;
-    max-width: 30rem;
+    max-width: 35rem;
 }
 
 th {
     font-size: 1.5rem;
+    text-shadow: 2px 2px 3px red;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: uppercase;
 }
 
 table, th, td {
     border-collapse: collapse;
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
 }
 
 th, td {
-    box-shadow: 0 0 10px maroon,
+    box-shadow: 0 0 10px #9a0000,
                 0 0 3px #e67272,
-                inset 0 0 5px maroon;
+                inset 0 0 5px #9a0000;
 }
 
-footer {
-    bottom: 0;
-    width: 100%;
+td a {
+    text-decoration: underline;
+}
+
+
+@media (min-width: 68em) {
+
+    td a:hover {
+        opacity: 70%;
+        transition: .7s;
+    }
+
 }

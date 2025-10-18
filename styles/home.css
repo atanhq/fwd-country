@@ -96,10 +96,6 @@ input[type="submit"] {
 
 
 @media (min-width: 68em) {
-    a:hover {
-        opacity: 50%;
-        transition: 0.5s;
-    }
 
     .banner h1 {
         top: 40%;

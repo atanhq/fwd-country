@@ -64,12 +64,14 @@ a:focus {
     position: absolute;
     top: 1rem;
     left: 1rem;
+    height: 3rem;
+    width: 3rem;
 }
 
 button {
     position: absolute;
-    top: 0;
-    right: 1rem;
+    top: 0.5rem;
+    right: 0;
     border: none;
     background-color: transparent;
     color: #eee;
@@ -153,7 +155,7 @@ footer {
 @media (min-width: 68em) {
 
     .menu a:hover {
-        text-decoration: underline overline maroon;
+        text-decoration: underline overline #e72c21;
         text-decoration-thickness: 5px;
         text-underline-offset: 0.3rem;
         letter-spacing: 5px;
@@ -161,7 +163,12 @@ footer {
     }
 
     button:hover { 
-        text-shadow: 0px 0px 20px red;
+        text-shadow: 0px 0px 20px #e72c21;
+        transition: 0.7s;
+    }
+
+    .logo a:hover {
+        opacity: 50%;
         transition: 0.7s;
     }
 }

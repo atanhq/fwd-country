@@ -164,6 +164,18 @@ footer {
 
 @media (min-width: 68em) {
 
+    .logo {
+        left: 2rem;
+    }
+
+    button {
+        right: 2rem;
+    }
+
+    .menu a {
+        font-size: 2rem;
+    }
+
     .menu a:hover {
         text-decoration: underline overline #9a0000;
         text-decoration-thickness: 5px;
@@ -172,7 +184,7 @@ footer {
         transition: 0.7s;
     }
 
-    button:hover { 
+    .menu button:hover { 
         text-shadow: 0px 0px 20px #9a0000;
         transition: 0.7s;
     }
@@ -181,6 +193,7 @@ footer {
         opacity: 70%;
         transition: 0.7s;
     }
+
 
     /* ----- CUISINE/PLACES MEDIA QUERY ----- */
     .page-title h1 {
